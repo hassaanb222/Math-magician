@@ -1,0 +1,39 @@
+.calculator {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.main li {
+  list-style: none;
+}
+
+.main li button {
+  width: 6rem;
+  height: 4rem;
+  background-color: #e0e0e0;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.zero {
+  width: 12rem !important;
+}
+
+.text {
+  width: 24rem;
+  height: 5rem;
+  background-color: #858594;
+  font-size: 2rem;
+  margin: 0;
+  text-align: right;
+}
+
+.right {
+  background-color: #f5913e !important;
+}
+
+.main li button:hover,
+.main li button:active {
+  font-size: 1.4rem;
+}
